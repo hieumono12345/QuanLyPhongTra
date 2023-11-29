@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ThongKeRP_DataTable" msprop:Generator_RowEvHandlerName="ThongKeRP_DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongKeRP_DataTableRowDeleted" msprop:Generator_RowDeletingName="ThongKeRP_DataTableRowDeleting" msprop:Generator_RowEvArgName="ThongKeRP_DataTableRowChangeEvent" msprop:Generator_TablePropName="ThongKeRP_DataTable" msprop:Generator_RowChangedName="ThongKeRP_DataTableRowChanged" msprop:Generator_UserTableName="ThongKeRP_DataTable" msprop:Generator_RowChangingName="ThongKeRP_DataTableRowChanging" msprop:Generator_RowClassName="ThongKeRP_DataTableRow" msprop:Generator_TableClassName="ThongKeRP_DataTableDataTable" msprop:Generator_TableVarName="tableThongKeRP_DataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_UserColumnName="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" type="xs:string" minOccurs="0" />
+              <xs:element name="DateCheckOut" msprop:Generator_ColumnPropNameInTable="DateCheckOutColumn" msprop:Generator_ColumnPropNameInRow="DateCheckOut" msprop:Generator_UserColumnName="DateCheckOut" msprop:Generator_ColumnVarNameInTable="columnDateCheckOut" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeCheckIn" msprop:Generator_ColumnPropNameInTable="TimeCheckInColumn" msprop:Generator_ColumnPropNameInRow="TimeCheckIn" msprop:Generator_UserColumnName="TimeCheckIn" msprop:Generator_ColumnVarNameInTable="columnTimeCheckIn" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeCheckOut" msprop:Generator_ColumnPropNameInTable="TimeCheckOutColumn" msprop:Generator_ColumnPropNameInRow="TimeCheckOut" msprop:Generator_UserColumnName="TimeCheckOut" msprop:Generator_ColumnVarNameInTable="columnTimeCheckOut" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalPrice" msprop:Generator_ColumnPropNameInTable="TotalPriceColumn" msprop:Generator_ColumnPropNameInRow="TotalPrice" msprop:Generator_UserColumnName="TotalPrice" msprop:Generator_ColumnVarNameInTable="columnTotalPrice" type="xs:string" minOccurs="0" />
+              <xs:element name="Discount" msprop:Generator_ColumnPropNameInTable="DiscountColumn" msprop:Generator_ColumnPropNameInRow="Discount" msprop:Generator_UserColumnName="Discount" msprop:Generator_ColumnVarNameInTable="columnDiscount" type="xs:string" minOccurs="0" />
+              <xs:element name="IDBill" msprop:Generator_ColumnPropNameInTable="IDBillColumn" msprop:Generator_ColumnPropNameInRow="IDBill" msprop:Generator_UserColumnName="IDBill" msprop:Generator_ColumnVarNameInTable="columnIDBill" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="result" msprop:Generator_RowEvHandlerName="resultRowChangeEventHandler" msprop:Generator_RowDeletedName="resultRowDeleted" msprop:Generator_RowDeletingName="resultRowDeleting" msprop:Generator_RowEvArgName="resultRowChangeEvent" msprop:Generator_TablePropName="result" msprop:Generator_RowChangedName="resultRowChanged" msprop:Generator_RowChangingName="resultRowChanging" msprop:Generator_TableClassName="resultDataTable" msprop:Generator_RowClassName="resultRow" msprop:Generator_TableVarName="tableresult" msprop:Generator_UserTableName="result">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="total" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_UserColumnName="total" type="xs:string" minOccurs="0" />
+              <xs:element name="totalFinal" msprop:Generator_ColumnPropNameInRow="totalFinal" msprop:Generator_ColumnPropNameInTable="totalFinalColumn" msprop:Generator_ColumnVarNameInTable="columntotalFinal" msprop:Generator_UserColumnName="totalFinal" type="xs:string" minOccurs="0" />
+              <xs:element name="totalDiscount" msprop:Generator_ColumnPropNameInRow="totalDiscount" msprop:Generator_ColumnPropNameInTable="totalDiscountColumn" msprop:Generator_ColumnVarNameInTable="columntotalDiscount" msprop:Generator_UserColumnName="totalDiscount" type="xs:string" minOccurs="0" />
+              <xs:element name="dateCheckIn" msprop:Generator_ColumnPropNameInRow="dateCheckIn" msprop:Generator_ColumnPropNameInTable="dateCheckInColumn" msprop:Generator_ColumnVarNameInTable="columndateCheckIn" msprop:Generator_UserColumnName="dateCheckIn" type="xs:string" minOccurs="0" />
+              <xs:element name="dateCheckOut" msprop:Generator_ColumnPropNameInRow="dateCheckOut" msprop:Generator_ColumnPropNameInTable="dateCheckOutColumn" msprop:Generator_ColumnVarNameInTable="columndateCheckOut" msprop:Generator_UserColumnName="dateCheckOut" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
